@@ -19,7 +19,7 @@
     "blockchain"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Chirp-Chain/chirpjs/issues"
   },

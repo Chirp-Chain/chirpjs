@@ -2,6 +2,8 @@
 
 *A web3js wrapper for accessing Chirp content on the ethereum blockchain*
 
+[![NPM](https://nodei.co/npm/chirpjs.png)](https://nodei.co/npm/chirpjs/)
+
 ## Installation
 ```javascript
 npm install chirpjs
