@@ -1,0 +1,36 @@
+{
+  "name": "chirpjs",
+  "version": "0.1.0",
+  "description": "Chirp Ethereum Web3 Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chirp-Chain/chirpjs.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "Javascript",
+    "API",
+    "web3",
+    "Chirpchain",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chirp-Chain/chirpjs/issues"
+  },
+  "homepage": "https://github.com/Chirp-Chain/chirpjs#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "deasync": "^0.1.10",
+    "web3": "^1.0.0-beta.18",
+    "web3-provider-engine": "^13.2.9"
+  }
+}
