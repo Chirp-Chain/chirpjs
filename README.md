@@ -4,7 +4,7 @@
 
 ## Installation
 ```javascript
-npm install chirpjs`
+npm install chirpjs
 ```
    
 ## Initialization
@@ -16,14 +16,14 @@ const contractAddress = "0x0....";
 const contractAbi = [];
 
 Chirp.initialize(rcpUrl, contractAddress, contractAbi, function(chirps) {
-
+	console.log(chirps); // {1:{chirp 1...}, 2: { chirp...1},...} 
 });
-    ```
+```
+
 ## Functions
 
 - **loadChirps(callback)**: Loads all chirps into an object.
 ```javascript
-
 Chirp.loadChirps(function(chirps) {
 	console.log(chirps); // {1:{chirp 1...}, 2: { chirp...1},...} 
 });
