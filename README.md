@@ -2,6 +2,9 @@
 
 *A web3js wrapper for accessing Chirp content on the ethereum blockchain*
 
+[![NPM version](https://badge.fury.io/js/chirpjs.svg)](https://badge.fury.io/js/chirpjs)
+[![Build Status](https://travis-ci.org/Chirp-Chain/chirpjs.svg?branch=master)](https://travis-ci.org/Chirp-Chain/chirpjs)
+
 [![NPM](https://nodei.co/npm/chirpjs.png)](https://nodei.co/npm/chirpjs/)
 
 ## Installation
