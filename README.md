@@ -3,19 +3,21 @@
 *A web3js wrapper for accessing Chirp content on the ethereum blockchain*
 
 ## Installation
-	`npm install chirpjs`
+```javascript
+npm install chirpjs`
+```
    
 ## Initialization
-	 ```javascript
-	const Chirp = require('chirpjs');
+ ```javascript
+const Chirp = require('chirpjs');
 
-	const rpcUrl = "https://rcp.infura.io/ajdij1ij21io3";
-	const contractAddress = "0x0....";
-	const contractAbi = [];
+const rpcUrl = "https://rcp.infura.io/ajdij1ij21io3";
+const contractAddress = "0x0....";
+const contractAbi = [];
 
-	Chirp.initialize(rcpUrl, contractAddress, contractAbi, function(chirps) {
+Chirp.initialize(rcpUrl, contractAddress, contractAbi, function(chirps) {
 
-	});
+});
     ```
 ## Functions
 
