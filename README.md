@@ -19,53 +19,53 @@
     ```
 ## Functions
 
-	- **loadChirps(callback)**: Loads all chirps into an object.
-	```javascript
+- **loadChirps(callback)**: Loads all chirps into an object.
+```javascript
 
-	Chirp.loadChirps(function(chirps) {
-		console.log(chirps); // {1:{chirp 1...}, 2: { chirp...1},...} 
-	});
-	```
+Chirp.loadChirps(function(chirps) {
+	console.log(chirps); // {1:{chirp 1...}, 2: { chirp...1},...} 
+});
+```
 
-	- **getChirp(id, callback)**: Load a chirp by ID with replies included.
-	```javascript
-	Chirp.getChirp(id, function(chirp) {
-		console.log(chirp); // {id: 1, body: "[body]", replies: [{chirp}, {chirp}..]} 
-	});
-	```
+- **getChirp(id, callback)**: Load a chirp by ID with replies included.
+```javascript
+Chirp.getChirp(id, function(chirp) {
+	console.log(chirp); // {id: 1, body: "[body]", replies: [{chirp}, {chirp}..]} 
+});
+```
 
-	- **getChirpsByChirper(address, callback)**: Returns all chirps an address chirped.
-	```javascript
-	Chirp.getChirpsByChirper(address, function(chirps) {
-		console.log(chirps); // {1:{chirp 1...}, 2: { chirp...1},...} 
-	});
-	```
+- **getChirpsByChirper(address, callback)**: Returns all chirps an address chirped.
+```javascript
+Chirp.getChirpsByChirper(address, function(chirps) {
+	console.log(chirps); // {1:{chirp 1...}, 2: { chirp...1},...} 
+});
+```
 
-	- **getAliasFromAddress(address, callback)**: Returns an address's alias.
-	```javascript
-	Chirp.getAliasFromAddress(address, function(alias) {
-		console.log(alias); // "[alias]" or "" if alias doesn't exist.
-	});
-	```
+- **getAliasFromAddress(address, callback)**: Returns an address's alias.
+```javascript
+Chirp.getAliasFromAddress(address, function(alias) {
+	console.log(alias); // "[alias]" or "" if alias doesn't exist.
+});
+```
 
-	- **getAliasFromAddress(address, callback)**: Returns an address's Chirp token balance.
-	```javascript
-	Chirp.tokenBalance(address, function(balance) {
-		console.log(balance); // 1000
-	});
-	```
+- **getAliasFromAddress(address, callback)**: Returns an address's Chirp token balance.
+```javascript
+Chirp.tokenBalance(address, function(balance) {
+	console.log(balance); // 1000
+});
+```
 
-	- **getCount()**: Returns number of Chirps on the blockchain.
-	```javascript
-	let chirpCount = Chirp.getCount();
-	console.log(chirpCount); // 500
-	```
+- **getCount()**: Returns number of Chirps on the blockchain.
+```javascript
+let chirpCount = Chirp.getCount();
+console.log(chirpCount); // 500
+```
 
-	- **getPurchaseableSupply()**: Returns number of tokens available for purchase from the Chirp contract.
-	```javascript
-	let purchaseableSupply = Chirp.getPurchaseableSupply();
-	console.log(purchaseableSupply); // 100000
-	```
+- **getPurchaseableSupply()**: Returns number of tokens available for purchase from the Chirp contract.
+```javascript
+let purchaseableSupply = Chirp.getPurchaseableSupply();
+console.log(purchaseableSupply); // 100000
+```
 
 
 ## License
