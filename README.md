@@ -6,7 +6,7 @@
 
 ## Installation
 ```javascript
-npm install chirpjs --save
+npm install chirpjs --save 
 ```
    
 ## Initialization
