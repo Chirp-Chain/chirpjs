@@ -18,8 +18,15 @@
     "Blockchain",
     "Chirpchain"
   ],
-  "author": "",
+  "author": "Merrywonder",
   "license": "MIT",
+  "repository": "Chirp-Chain/chirpjs",
+  "homepage": "http://chirpchain.com",
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js"
+  ],
   "bugs": {
     "url": "https://github.com/Chirp-Chain/chirpjs/issues"
   },
