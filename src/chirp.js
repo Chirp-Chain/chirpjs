@@ -303,13 +303,13 @@ function init(rcpUrl, _contractAddress, _contractAbi, callback) {
   chirpsDict = {};
   chirpers = {};
   count = 1;
-  console.log('[CHIRP] Initialized Successfully.'.green);
+  console.log('[CHIRP] Initialized Successfully.');
   loadChirps({}, (chirps) => {
-    if (chirps) console.log(`[CHIRP] Chirps 1 through ${count} Loaded Successfully.`.green);
+    if (chirps) console.log(`[CHIRP] Chirps 1 through ${count} Loaded Successfully.`);
     if (callback) callback(chirps);
   });
   watchEvents(function() {
-    console.log('[CHIRP] Watching for new events.'.green);
+    console.log('[CHIRP] Watching for new events.');
   });
 }
 
